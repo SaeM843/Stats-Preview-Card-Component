@@ -28,5 +28,6 @@ body {
 main {
     background-color: var(--card-background);
     display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
