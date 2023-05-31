@@ -82,6 +82,7 @@ ul {
   justify-content: space-between;
   list-style-type: none;
   margin-top: 3rem;
+  margin-right: 6rem;
 }
 
 .num-info > ul > li > p {
@@ -98,3 +99,4 @@ ul {
   letter-spacing: 0.1rem;
   margin-top: 0.5rem;
 }
+
