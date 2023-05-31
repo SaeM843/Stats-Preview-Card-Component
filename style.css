@@ -82,8 +82,19 @@ ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  margin-top: 3rem;
+}
+
+.num-info > ul > li > p {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .num-info > ul > li > p > span {
   display: block;
+  font-weight: 300;
+  font-size: 15px;
+  text-transform:uppercase;
+  color: var(--main-paragraph);
+
 }
