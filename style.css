@@ -55,14 +55,15 @@ picture {
 .card-left {
   padding: 4rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   flex-direction: column;
+  width: 75%;
+  height: 70%;
 }
 
 .text-info > h1 {
   font-size: 2rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .text-info > h1 > span {
@@ -72,4 +73,17 @@ picture {
 .text-info > p {
   margin: 2rem 3rem 2rem 0;
   color: var(--main-paragraph);
+}
+
+.num-info {
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.num-info > ul > li > p > span {
+  display: block;
 }
