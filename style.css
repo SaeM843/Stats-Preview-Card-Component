@@ -28,11 +28,16 @@ body {
 }
 
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   background-color: var(--card-background);
   margin: 10rem;
   border-radius: 0.5rem;
+}
+
+.card-left {
+  width: 50%;
 }
 
 h1 > span {
