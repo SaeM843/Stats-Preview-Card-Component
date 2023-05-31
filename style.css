@@ -37,22 +37,17 @@ main {
   border-radius: 0.5rem;
 }
 
-img {
+picture {
+  min-width: 50%;
+  background-color: var(--accent);
   border-radius: 0 0.5rem 0.5rem 0;
-  opacity: 0.75;
 }
 
-picture {
-  
-  min-width: 50%;
-  
-  background-color: var(--accent);
-}
 .overlay {
   height: 100%;
   width: 100%;
   opacity: 0.75;
   background-image: url("./images/image-header-desktop.jpg");
-  
   mix-blend-mode: multiply;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
