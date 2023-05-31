@@ -36,3 +36,8 @@ main {
   margin: 10rem;
   border-radius: 0.5rem;
 }
+
+img {
+  border-radius: 0 0.5rem 0.5rem 0;
+
+}
