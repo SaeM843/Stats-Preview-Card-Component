@@ -27,6 +27,18 @@ body {
     font-size: 15px;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--card-background);
+  margin: 10rem;
+  border-radius: 0.5rem;
+}
+
+h1 > span {
+  color: var(--accent);
+}
+
 img {
   display: block;
   object-fit: cover;
