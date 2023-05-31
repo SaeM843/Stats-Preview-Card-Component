@@ -20,6 +20,7 @@
 body {
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
+    min-width: 100vw;
     display: grid;
     place-items: center;
     background-color: var(--main-background);
@@ -28,25 +29,10 @@ body {
 }
 
 main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
+  display: flex;
+  height: 446px;
+  width: 1110px;
   background-color: var(--card-background);
   margin: 10rem;
   border-radius: 0.5rem;
-}
-
-.card-left {
-  width: 50%;
-}
-
-h1 > span {
-  color: var(--accent);
-}
-
-img {
-  display: block;
-  object-fit: cover;
-  max-width: 100%;
-  opacity: 0.5;
 }
