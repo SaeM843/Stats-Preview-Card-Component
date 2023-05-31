@@ -24,20 +24,5 @@ body {
     place-items: center;
     background-color: var(--main-background);
     color: white;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
-    opacity: 0.5;
-  }
-
-main {
-    display: flex;
-  justify-content: space-between;
-  background-color: hsl(244, 38%, 16%);
-  margin: 0 10%;
-  border-radius: 6px;
-  overflow: hidden;
+    font-size: 15px;
 }
