@@ -39,5 +39,10 @@ main {
 
 img {
   border-radius: 0 0.5rem 0.5rem 0;
+  opacity: 0.75;
+}
 
+picture {
+  mix-blend-mode: multiply;
+  background-color: var(--accent);
 }
