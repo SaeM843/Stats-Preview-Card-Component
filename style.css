@@ -57,12 +57,11 @@ picture {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 75%;
-  height: 70%;
 }
 
 .text-info > h1 {
   font-size: 2rem;
+  margin-right: 3rem;
 }
 
 .text-info > h1 > span {
@@ -70,7 +69,9 @@ picture {
 }
 
 .text-info > p {
-  color: var(--main-paragraph);
+  color: var(--stat-headings);
+  margin: 2rem 3rem 2rem 0;
+  line-height: 1.5rem;
 }
 
 .num-info {
@@ -91,8 +92,9 @@ ul {
 .num-info > ul > li > p > span {
   display: block;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 10px;
   text-transform:uppercase;
-  color: var(--main-paragraph);
-
+  color: var(--stat-headings);
+  letter-spacing: 0.1rem;
+  margin-top: 0.5rem;
 }
