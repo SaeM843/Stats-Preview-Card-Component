@@ -43,6 +43,16 @@ img {
 }
 
 picture {
-  mix-blend-mode: multiply;
+  
+  min-width: 50%;
+  
   background-color: var(--accent);
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.75;
+  background-image: url("./images/image-header-desktop.jpg");
+  
+  mix-blend-mode: multiply;
 }
